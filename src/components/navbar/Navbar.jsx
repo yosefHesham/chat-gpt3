@@ -32,12 +32,12 @@ const Menu = () => <>
       <button type='button'>Sign up</button>
       </article>
 
-      <section className='.gpt3-navbar-menu'>
+      <section className='gpt3__navbar-menu'>
       {toggleMenu? <RiCloseLine color='#fff' size={27} onClick={() => {setToggleMenu(false)}}/>: <RiMenu3Line color='#fff' size={27} onClick={() => {setToggleMenu(true)}}/>}
         {toggleMenu && <section className='menu-container'>
             <section className='menu-links'> <Menu></Menu> 
             
-      <article className='gpt3-navbar--menu-sign'>
+      <article className='gpt3-navbar-menu-sign'>
         <p>Sign in</p>
       <button type='button'>Sign up</button>
       </article>
