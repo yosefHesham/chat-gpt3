@@ -1,10 +1,10 @@
 import React from 'react'
 import "./whatGPT.css"
 
- const whatGPT = () => {
+ const WhatGPT3 = () => {
   return (
     <div>whatGPT</div>
   )
 }
 
-export default whatGPT
+export default WhatGPT3
