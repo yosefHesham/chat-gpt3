@@ -10,6 +10,7 @@ import Footer from './containers/footer/Footer'
 import Header from './containers/header/Header'
 
  const App = () => {
+  <></>
   return (
     <div className='App'>
 
